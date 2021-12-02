@@ -50,9 +50,21 @@ git push origin main -- push commits to the remote repo. and the branch name men
 
 git ls-files -- list of all files git is tracking in the current folder
 
-git reset file-name or git restore --staged file-name -- To move back to working directory state from the staging state
+git restore --staged file-name or git reset file-name -- To move back to working directory state from the staging state
 
-git checkout -- file-name or git restore file-name -- To discard the changes in working directory
+git restore file-name or git checkout -- file-name -- To discard the changes in working directory
+
+git mv old-file-name new-file-name  -- renaming the file, git consider this as remane operation
+
+mv old-file-name new-file-name -- git sees this bash operation as the old file being deleted and new file being added
+
+git add -A -- recursively add anychanges happened in the repo. this will lead to git noticing the operation that occured is a rename one
+
+
+
+
+
+
 
 
 
