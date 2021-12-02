@@ -20,7 +20,7 @@ Local: Working directory, Staging area, Local repository
 
 Remote: GitHub, BitBucket etc
 
-## Basic Git workflow
+## Basic Git commands
 
 git status -- check the status of the working directory files
 
@@ -38,6 +38,9 @@ git push origin main -- push commits to the remote repo. and the branch name men
 
 git ls-files -- list of all files git is tracking in the current folder
 
+git reset file-name -- To move back to working directory state from the staging state
+
+git checkout -- file-name -- To discard the changes in working directory
 
 
 git init project-name  -- starting a new git project
