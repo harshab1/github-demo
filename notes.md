@@ -1,4 +1,4 @@
-##Notes: Git Complete: The definitive, step-by-step guide to Git
+# Notes: Git Complete: The definitive, step-by-step guide to Git
 
 ## Git installation:
 
@@ -22,6 +22,18 @@ Remote: GitHub, BitBucket etc
 
 ## Basic Git commands
 
+git init project-name  -- starting a new git project
+
+git init -- adding git to an already existing project
+ 
+rm -rf .git -- removes all the traces of git from a project/directory
+
+rm -rf project-folder-name -- delete the project folder
+
+fork -- will make the copy of the repository to my account
+
+git clone https-url -- cloning the git repository to local 
+
 git status -- check the status of the working directory files
 
 git add [file-name]-- untracked files to be added to staging area before committing
@@ -43,17 +55,7 @@ git reset file-name or git restore --staged file-name -- To move back to working
 git checkout -- file-name or git restore file-name -- To discard the changes in working directory
 
 
-git init project-name  -- starting a new git project
 
-git init -- adding git to an already existing project
- 
-rm -rf .git -- removes all the traces of git from a project/directory
-
-rm -rf project-folder-name -- delete the project folder
-
-fork -- will make the copy of the repository to my account
-
-git clone https-url -- cloning the git repository to local 
 
 
 
