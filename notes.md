@@ -1,4 +1,4 @@
-#Notes: Git Complete: The definitive, step-by-step guide to Git
+##Notes: Git Complete: The definitive, step-by-step guide to Git
 
 ## Git installation:
 
@@ -38,9 +38,9 @@ git push origin main -- push commits to the remote repo. and the branch name men
 
 git ls-files -- list of all files git is tracking in the current folder
 
-git reset file-name -- To move back to working directory state from the staging state
+git reset file-name or git restore --staged file-name -- To move back to working directory state from the staging state
 
-git checkout -- file-name -- To discard the changes in working directory
+git checkout -- file-name or git restore file-name -- To discard the changes in working directory
 
 
 git init project-name  -- starting a new git project
