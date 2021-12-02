@@ -60,6 +60,10 @@ mv old-file-name new-file-name -- git sees this bash operation as the old file b
 
 git add -A -- recursively add anychanges happened in the repo. this will lead to git noticing the operation that occured is a rename one
 
+git rm file-name -- delete a file using git, it will be automatically staged 
+
+rm file-name -- delete a file(tracked/untracked) using bash, had to be staged using add command (tracked only, obviously untracked will be gone)
+
 
 
 
