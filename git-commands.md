@@ -76,11 +76,11 @@ git restore --staged file-name -- unsatge the files that are being deleted
 
 ## History:
 
-git help log -- help of git log
+git help log --> help of git log
 
-git log -- all the commit logs with timestamp and commit messages
+git log --> all the commit logs with timestamp and commit messages
 
-git log --abbrev-commit -- commit ID is shortend to few characters
+git log --abbrev-commit --> commit ID is shortend to few characters
 
 git log --oneline --graph --decorate
 
@@ -93,6 +93,14 @@ git log -- file-name -- commits related to specific file
 git log --follow -- file-name -- it will see the rename commit logs
 
 git show commit-id -- diff changes made and detailed commit information
+
+## Alias
+
+git config --global alias.alias-name "some long command exclude the git from that command" 
+
+Example: git config --global alias.hist "log --all --oneline --graph --decorate" 
+
+git hist --> alias command for the long command above stored in ~/.config file
 
 
 
