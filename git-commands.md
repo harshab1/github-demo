@@ -64,6 +64,10 @@ git rm file-name -- delete a file using git, it will be automatically staged
 
 rm file-name -- delete a file(tracked/untracked) using bash, had to be staged using add command (tracked only, obviously untracked will be gone)
 
+git restore file-name  -- add the deleted files by bash back to working directory
+
+git restore --staged file-name -- unsatge the files that are being deleted 
+
 
 
 
