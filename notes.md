@@ -12,7 +12,7 @@ git config --global user.name (set the global user name)
 
 git config --global user.email (email address)
 
-git config --global core.editor "mate -w" (text mate text is added as default text editor)
+git config --global core.editor "mate -w" (text mate is added as default text editor)
 
 ## Stages:
 
