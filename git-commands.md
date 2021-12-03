@@ -41,7 +41,7 @@ git add . --> all untracked files are added / Used to recursively add the files 
 
 git commit -m "commit message" --> commiting the files from the statging area
 
-git commit -am "commit message" --> Adding and commit steps together with commit message
+git commit -am "commit message" --> Express commit, Adding and commit steps together with commit message
 
 git pull origin main -->[ITS IS EXTREMELY IMPORTANT TO DO A PULL BEFORE PUSH]-- to make sure you are aware of the changes made to the online repo.
 
@@ -166,8 +166,16 @@ git merge branch-name --no-ff --> No fast forwarding, fast-forward will just mov
 
 merge conflicts will occur when trying to merge the commits to same part of a file that is modified in target and source branch
 
+git merge or git merge tool --> will bring the conflicts and choose how you want to resolve each of the individual conficts
 
-Some bla bla content in that section
+## Rebasing
+
+If working on feature branch, want to add the changes happedn on master to the feature branch, use git rebase master command.
+
+The changed happend on the feature branch are re-applied to the chnages that occured on the master, incorporating any changes that had occured on the master branch
+
+git rebase master --> command to rebase the changes happened on master to the feature branch
+
  
 
 
