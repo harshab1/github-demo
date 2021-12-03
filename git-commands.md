@@ -141,6 +141,30 @@ git diff -- file-name --> Changes happend in that specific file only
 
 git diff commit-id-1 commit-id-2 --> Diff b/w commits, HEAD for last commit, HEAD^ for last commit minus 1
 
+git diff branch-1 branch-2 --> differnece b/w branches before merging
+
+## Branching and merging
+
+git branch -a --> list all branches local and remote
+
+git branch branch-name --> adding a new branch
+
+git checkout branch-name --> move to a other branch
+
+git checkout -b branch-name --> combines the above two commands, creation and checkout
+
+git branch -d branch-name --> delete a branch, has to be on another branch
+
+git branch -m new-branch-name --> to change the branch name
+
+git diff branch-1 branch-2 --> ITS IMPORTANT TO SEE THE DIFFERENCES BEFORE MERGING
+
+git merge branch-name --> Firstly be on the target branch and merge the source branch
+
+fash forward merge --> This happens when the target branch is not updated after the branch had happend, the commit on the branch will be laid on to the target branch directly
+
+
+
 
 
 
