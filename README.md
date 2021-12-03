@@ -1,2 +1,6 @@
 # github-demo
-learning git
+
+Udemy Course Name: Git Complete: The definitive, step-by-step guide to Git
+
+Instructor: Jason Taylor
+ 
