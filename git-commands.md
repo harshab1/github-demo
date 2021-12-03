@@ -102,6 +102,12 @@ Example: git config --global alias.hist "log --all --oneline --graph --decorate"
 
 git hist --> alias command for the long command above stored in ~/.config file
 
+## Ignoring unwanted files / folders
+
+create .gitignore file if didnt already exist and add file-name (file-name.extension)or pattern (*.extension) or a folder (folder-name/)
+
+
+
 
 
 
