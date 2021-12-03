@@ -137,6 +137,8 @@ git difftool local-branch-name remote-repo/remote-branch-name --> Differnece bet
 
 git difftool local-branch-name remote-repo/remote-branch-name --> Visually see the above command using p4merge
 
+git diff -- file-name --> Changes happend in that specific file only
+
 
 
 
