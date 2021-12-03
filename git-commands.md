@@ -133,6 +133,12 @@ git diff HEAD --> Differenc between last commit and staging area
 
 git difftool HEAD --> Visually see the above command using p4merge
 
+git diff --staged HEAD --> Differnece between staging area and last commit
+
+git difftool --staged HEAD
+
+
+
 
 
 
