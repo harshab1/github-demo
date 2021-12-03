@@ -139,6 +139,8 @@ git difftool local-branch-name remote-repo/remote-branch-name --> Visually see t
 
 git diff -- file-name --> Changes happend in that specific file only
 
+git diff commit-id-1 commit-id-2 --> Diff b/w commits, HEAD for last commit, HEAD^ for last commit minus 1
+
 
 
 
