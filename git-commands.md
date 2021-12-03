@@ -1,4 +1,5 @@
 # Udemy: Git Complete: The definitive, step-by-step guide to Git by Jason Taylor
+
 ## Git installation:
 
 git version (pre-installed on newer Mac OS versions)
