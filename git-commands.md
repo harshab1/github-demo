@@ -167,6 +167,7 @@ git merge branch-name --no-ff --> No fast forwarding, fast-forward will just mov
 merge conflicts will occur when trying to merge the commits to same part of a file that is modified in target and source branch
 
 
+Some bla bla content in that section
  
 
 
