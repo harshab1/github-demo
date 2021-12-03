@@ -3,6 +3,8 @@
 
 git version (pre-installed on newer Mac OS versions)
 
+If not install using XCode, downloadable from Appstore
+
 ## Global variables
 
 git config --global -edit (Edit the global variables in form of text file)
