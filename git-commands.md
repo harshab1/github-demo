@@ -164,6 +164,7 @@ fash forward merge --> This happens when the target branch is not updated after 
 
 git merge branch-name --no-ff --> No fast forwarding, fast-forward will just move the branch pointer to the incoming branch commit. 
 
+
  
 
 
