@@ -106,6 +106,24 @@ git hist --> alias command for the long command above stored in ~/.config file
 
 create .gitignore file if didnt already exist and add file-name (file-name.extension)or pattern (*.extension) or a folder (folder-name/)
 
+## Diff/merge tool
+
+Download p4merge from perforce.com
+
+configure the diff/merge:
+
+git config --global mergetool.p4merge.path /Applications/p4merge.app/Contents/MacOS/p4merge
+
+git config --global merge.tool p4merge
+
+git config --global difftool.p4merge.path /Applications/p4merge.app/Contents/MacOS/p4merge
+
+git config --global diff.tool p4merge
+
+git config --global difftool.prompt false
+
+git config --global mergetool.prompt false
+
 
 
 
