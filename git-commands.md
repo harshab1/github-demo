@@ -162,6 +162,10 @@ git merge branch-name --> Firstly be on the target branch and merge the source b
 
 fash forward merge --> This happens when the target branch is not updated after the branch had happend, the commit on the branch will be laid on to the target branch directly
 
+git merge branch-name --no-ff --> No fast forwarding, fast-forward will just move the branch pointer to the incoming branch commit. 
+
+ 
+
 
 
 
