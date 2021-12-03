@@ -176,7 +176,9 @@ The changed happend on the feature branch are re-applied to the chnages that occ
 
 git rebase master --> command to rebase the changes happened on master to the feature branch
 
- 
+some times it is preferbale to abort a rebase when rebase conflicts occur it is done by following command:
+
+git rebase --abort
 
 
 
