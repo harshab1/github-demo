@@ -133,9 +133,9 @@ git diff HEAD --> Differenc between last commit and staging area
 
 git difftool HEAD --> Visually see the above command using p4merge
 
-git diff --staged HEAD --> Differnece between staging area and last commit
+git difftool local-branch-name remote-repo/remote-branch-name --> Differnece between staging area and last commit
 
-git difftool --staged HEAD
+git difftool local-branch-name remote-repo/remote-branch-name --> Visually see the above command using p4merge
 
 
 
