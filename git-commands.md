@@ -46,6 +46,8 @@ git commit -m "commit message" --> commiting the files from the statging area
 
 git commit -am "commit message" --> Express commit, Adding and commit steps together with commit message
 
+git commit --ammend --> can change the commit message of the previous commit
+
 git pull origin main -->[ITS IS EXTREMELY IMPORTANT TO DO A PULL BEFORE PUSH]-- to make sure you are aware of the changes made to the online repo.
 
 git push origin main --> push commits to the remote repo. and the branch name mentioned
@@ -210,6 +212,28 @@ git stash apply stash-name --> to appply a particular stash modifications only
 git stash clear --> clears all the list of stashes
 
 git stash branch branch-name/new-branch-name --> working on master, realised the modifications are risky to be added to master, using stashing save all the modifications/untracked-files and pop them onto new branch
+
+## Tags:
+
+git tag tag-name --> this is simple/light-weight tag. used to signify a milestone to a commit
+
+git show tag-name --> to view that particular commit description
+
+git tag --list --> lists all the tags 
+
+git tag --delete tag-name --> deletes a tag
+
+git tag -a tag-name --> annotated tags. can add tag message/release notes in the text-editor that pops
+
+git diff tag-name-1 tag-name-2 --> comparing tags
+
+git tag -a tag-name commit-id --> adding tag to an old commit
+
+git tag -a tag-name -f new-commit-id --> to force a tag-name to an other commit than its previously associated one
+
+
+
+
 
 
 
