@@ -231,11 +231,11 @@ git tag -a tag-name commit-id --> adding tag to an old commit
 
 git tag -a tag-name -f new-commit-id --> to force a tag-name to an other commit than its previously associated one
 
-git push origin tag-name --> a tag with its associated commit will be pushed to github
+git push origin tag-name --> a tag with its associated commit will be pushed to GitHub
 
 git push origin main --tags --> pushes all the tags 
 
-
+git push origin :tag-name --> the tag will be deleted from the GitHub
 
 
 
