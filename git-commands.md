@@ -207,6 +207,12 @@ git stash show stash-name --> to view a particular stach. stash-name is stash@{i
 
 git stash apply stash-name --> to appply a particular stash modifications only
 
+git stash clear --> clears all the list of stashes
+
+git stash branch branch-name/new-branch-name --> working on master, realised the modifications are risky to be added to master, using stashing save all the modifications/untracked-files and pop them onto new branch
+
+
+
 
 
 
