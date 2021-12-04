@@ -175,7 +175,7 @@ git merge or git merge tool --> will bring the conflicts and choose how you want
 
 If working on feature branch, want to add the changes happedn on master to the feature branch, use git rebase master command.
 
-The changed happend on the feature branch are re-applied to the chnages that occured on the master, incorporating any changes that had occured on the master branch
+The changes happend on the feature branch are re-applied to the changes that occured on the master, incorporating any changes that had occured on the master branch
 
 git rebase master --> command to rebase the changes happened on master to the feature branch
 
