@@ -183,6 +183,10 @@ git rebase --abort --> to abort a conflicing rebase, perferble sometimes
 
 git rebase --continue --> reslove the rebase conflict similar to merge conflict and continue the rebasing process
 
+git fetch origin main --> It is differnent from git pull. It is a non-destructive command that just updates the references from remote repo. to local repo.
+
+git pull --rebase origin main --> It is similar to pull with rebase option. The local repo. get the content from master while carrying on the work locally
+
 
  
 
