@@ -180,6 +180,10 @@ The changed happend on the feature branch are re-applied to the chnages that occ
 git rebase master --> command to rebase the changes happened on master to the feature branch
 
 git rebase --abort --> to abort a conflicing rebase, perferble sometimes 
+
+git rebase --continue --> reslove the rebase conflict similar to merge conflict and continue the rebasing process
+
+
  
 
 
