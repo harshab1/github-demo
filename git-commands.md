@@ -237,6 +237,15 @@ git push origin main --tags --> pushes all the tags
 
 git push origin :tag-name --> the tag will be deleted from the GitHub
 
+## Reset & Reflog
+
+git reset HEAD^n --> moves to the previous nth commit state
+
+git reset commit-id --> move the a particular commit state using commit id
+
+git reflog --> all the log activity including commits and resets
+
+git reset HEAD@{index} --> using index from reflog command
 
 
 
