@@ -48,7 +48,9 @@ git commit -am "commit message" --> Express commit, Adding and commit steps toge
 
 git commit --ammend --> can change the commit message of the previous commit
 
-git pull origin main -->[ITS IS EXTREMELY IMPORTANT TO DO A PULL BEFORE PUSH]-- to make sure you are aware of the changes made to the online repo.
+git pull origin main (or) git pull -->[ITS IS EXTREMELY IMPORTANT TO DO A PULL BEFORE PUSH]-- to make sure you are aware of the changes made to the online repo.
+
+git fetch origin branch-name --> will get all the references of the branch from remote to local repository
 
 git push origin main --> push commits to the remote repo. and the branch name mentioned
 
@@ -250,6 +252,7 @@ git reset HEAD@{index} --> using index from reflog command
 git reset is of three types: Mixed (default: resets working directory not staging area and moves the HEAD), Hard (destructive, both reset working directory and staging ares, moves the HEAD), Soft (does not resets working directory or staging area, it just moves the head)
 
 git log contain only current state of commits not all the history. Using git reflog is crucial to reach a right commit state after some unwanted resets
+
 
 
 
