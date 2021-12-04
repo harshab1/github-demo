@@ -187,6 +187,16 @@ git fetch origin main --> It is differnent from git pull. It is a non-destructiv
 
 git pull --rebase origin main --> It is similar to pull with rebase option. The local repo. get the content from master while carrying on the work locally
 
+## Stashing
+
+git stash --> saves the modified files, to carry on working later and the changes to be not reflected at the moment
+
+git stash apply --> applies the modifications that are stashed before
+
+git stash list --> list all the stashes
+
+git stash drop --> removes stash, already applied or ones not required
+
 
  
 
