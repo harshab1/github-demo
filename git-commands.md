@@ -197,6 +197,12 @@ git stash list --> list all the stashes
 
 git stash drop --> removes stash, already applied or ones not required
 
+git stash -u --> stash untracked files. untracked files are not stashed by default
+
+git stash pop --> combines 'apply' and 'drop' commands
+
+
+
 
  
 
