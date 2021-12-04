@@ -201,6 +201,12 @@ git stash -u --> stash untracked files. untracked files are not stashed by defau
 
 git stash pop --> combines 'apply' and 'drop' commands
 
+git stash save "stash name / stash purpose" --> managing multiple stashes
+
+git stash show stash-name --> to view a particular stach. stash-name is stash@{index}
+
+git stash apply stash-name --> to appply a particular stash modifications only
+
 
 
 
