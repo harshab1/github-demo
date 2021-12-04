@@ -247,7 +247,11 @@ git reflog --> all the log activity including commits and resets for last 60 day
 
 git reset HEAD@{index} --> using index from reflog command
 
-git rest is of three types: Mixed (default: resets working directory not staging area and moves the HEAD), Hard (destructive, both reset working directory and staging ares, moves the HEAD), Soft (does not resets working directory or staging area, it just moves the head)
+git reset is of three types: Mixed (default: resets working directory not staging area and moves the HEAD), Hard (destructive, both reset working directory and staging ares, moves the HEAD), Soft (does not resets working directory or staging area, it just moves the head)
+
+git log contain only current state of commits not all the history. Using git reflog is crucial to reach a right commit state after some unwanted resets
+
+
 
 
 
